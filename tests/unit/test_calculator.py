@@ -28,6 +28,6 @@ class TestMultiplyDivideWithValidation:
     
     def test_divide_input_validation(self):
         """Test divide rejects non-numeric inputs."""
-        divide(10, 2)
+        divide("10", 2)
 
 # TODO: Students will add TestMultiplyDivide class
